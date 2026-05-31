@@ -16,9 +16,18 @@ An ultra-modular, modern character profile template inspired by tabletop D&D cha
 
 ## 📂 File Structure
 
+```text
 ├── index.html        # Main webpage architecture and content blocks
 ├── style.css         # Modern neon/dark theme styles & responsive breakpoints
 └── script.js         # Scroll animations and gallery lightbox core engine
+```
+
+🚀 Quick Start
+Clone or Download this repository to your local machine.
+
+Open index.html directly in any web browser to preview the template.
+
+Start editing the files using your preferred code editor (VS Code, Notepad++, etc.).
 
 🛠️ How to Customize
 This template is explicitly engineered for painless customization, even for those with minimal coding experience.
@@ -30,12 +39,12 @@ Open index.html and locate the descriptive text blocks. Replace the placeholder 
 To add, modify, or remove attributes, simply duplicate a stat-row block and adjust the inline CSS width parameter to control the progress bar fill:
 
 HTML
+```text
 <div class="stat-row">
     <div class="stat-bar-track">
-        <div class="stat-bar-fill" style="width: 85%;"></div> <!-- Adjust the percentage here -->
-    </div>
-    <span class="stat-label">Strength</span> <!-- Change the stat name here -->
-</div>
+        <div class="stat-bar-fill" style="width: 85%;"></div> </div>
+    <span class="stat-label">Strength</span> </div>
+```  
 3. Expanding Abilities and Relations
 Need more skill cards or extra relationship slots? Just copy an existing .skill-card or .relation-card div block and paste it right below. The underlying CSS Flexbox and Grid engines will handle the scaling and spacing automatically.
 
@@ -45,4 +54,6 @@ The main portrait container (hero-image-container) utilizes strict containment b
 📜 License & Credits
 Design & Code: ArizonaDev
 
-All rights reserved. This template is free to use and customize for personal character bios, tabletop tracking, and RP communities.
+Made by ArizonaDev. All rights reserved.
+
+This template is free to use and customize for personal character bios, tabletop tracking, and RP communities.
